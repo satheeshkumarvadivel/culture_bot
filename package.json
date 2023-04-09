@@ -1,0 +1,34 @@
+{
+  "name": "Webex-Culture-Bot",
+  "version": "1.0.0",
+  "description": "Starter template for creating a Webex Teams bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && node --use_strict index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tbd/webexbotstarter.git"
+  },
+  "keywords": [
+    "Cisco",
+    "Webex",
+    "webex-bot-framework"
+  ],
+  "author": "Satheeshkumar Vadivel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tbd/webexbotstarter/issues"
+  },
+  "homepage": "https://github.com/tbd/webexbotstarter#readme",
+  "dependencies": {
+    "better-sqlite3": "^7.6.2",
+    "body-parser": "^1.15.2",
+    "cron-job-manager": "^2.1.4",
+    "express": "^4.14.0",
+    "forever": "^4.0.3",
+    "node-fetch": "^2.6.1",
+    "webex-node-bot-framework": "^2.3.1",
+    "winston": "^3.3.3"
+  }
+}

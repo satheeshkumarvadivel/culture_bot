@@ -1,0 +1,138 @@
+[
+    {
+        "trait": "Am I a good team member who is very polite and approachable always?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who is flexible to accommodate team priorities?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who is  trustworthy and completely owns up the tasks?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who out of personal interest comes up with solutions for any problem in the team?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who feels proud and passionate about being part of the team and Cisco?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who doesn’t think twice to use the words - \"please\", \"thank you\" and \"sorry\" and uses them very frequently?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who is inclusive and acknowledges everyone's flaws?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who values time and does not waste self and others' time?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the \"Where Am I\" space?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who understands my responsibilities and handles them in a professional manner?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who sees the goals of my team rather than focusing on my own task?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who joins scheduled meetings on time?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who is reliable and responsible team player ?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who Optimistic and Future-Focused ?",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future",
+        "trait_type": "GOOD"
+    },
+    {
+        "trait": "Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?",
+        "trait_type": "BAD"
+    },
+    {
+        "trait": "Am I a bad team member who is constantly complaining and sees only the negatives in others?",
+        "trait_type": "BAD"
+    },
+    {
+        "trait": "Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?",
+        "trait_type": "BAD"
+    },
+    {
+        "trait": "Am I a bad team member who steals credit for others achievements?",
+        "trait_type": "BAD"
+    },
+    {
+        "trait": "Am I a bad team member who blows his own trumpet and constantly indulges in self praise?",
+        "trait_type": "BAD"
+    }
+]

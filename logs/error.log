@@ -1,0 +1,84 @@
+2022-09-15 18:35:08 error: Error while fetching culture bot configurationTypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Bot'
+    |     property 'framework' -> object with constructor 'Framework'
+    |     property 'bots' -> object with constructor 'Array'
+    --- index 0 closes the circle
+    at JSON.stringify (<anonymous>)
+    at Object.configureBot (/Users/satvadiv/control_hub/culture_bot/WebexHelperService.js:18:39)
+    at Object.action (/Users/satvadiv/control_hub/culture_bot/index.js:94:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-09-15 19:21:27 error: Error While submitting TypeError: Cannot set properties of undefined (setting 'parentId')
+    at Bot.reply (/Users/satvadiv/control_hub/culture_bot/node_modules/webex-node-bot-framework/lib/bot.js:1103:23)
+    at Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:161:11)
+    at Framework.emit (node:events:513:28)
+    at Framework.myEmit (/Users/satvadiv/control_hub/culture_bot/node_modules/webex-node-bot-framework/lib/framework.js:2036:10)
+    at /Users/satvadiv/control_hub/culture_bot/node_modules/webex-node-bot-framework/lib/framework.js:1362:14
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-09-15 19:50:24 error: Error While submitting TypeError: Cannot set properties of undefined (setting 'parentId')
+    at Bot.reply (/Users/satvadiv/control_hub/culture_bot/node_modules/webex-node-bot-framework/lib/bot.js:1103:23)
+    at Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:157:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-09-19 16:07:50 error: Error While submitting TypeError: Cannot set properties of undefined (setting 'parentId')
+    at Bot.reply (/Users/satvadiv/control_hub/culture_bot/node_modules/webex-node-bot-framework/lib/bot.js:1103:23)
+    at Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:146:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-09-19 16:19:30 error: Error While submitting TypeError: dbService.createSchedules is not a function
+    at Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:150:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-09-19 17:44:24 error: Error While submitting TypeError: dbService.createSchedules is not a function
+    at Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:150:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-09-19 18:28:17 error: Error While submitting Error Message: Error while inserting SqliteError: no such table: schedule
+    at Database.prepare (/Users/satvadiv/control_hub/culture_bot/node_modules/better-sqlite3/lib/methods/wrappers.js:5:21)
+    at Object.getScheduleBySpaceId (/Users/satvadiv/control_hub/culture_bot/DatabaseOperation.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.createOrUpdateSchedule (/Users/satvadiv/control_hub/culture_bot/WebexHelperService.js:22:28)
+    at async Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:150:7) Error type: DB
+2022-09-19 18:38:35 error: Error While submitting Error Message: Error while fetching schedules RangeError: Too few parameter values were provided
+    at Object.getScheduleBySpaceId (/Users/satvadiv/control_hub/culture_bot/DatabaseOperation.js:63:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.createOrUpdateSchedule (/Users/satvadiv/control_hub/culture_bot/WebexHelperService.js:22:28)
+    at async Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:150:7) Error type: DB
+2022-09-19 18:48:08 error: Error While submitting Error Message: Error while inserting schedules SqliteError: no such table: schedule
+    at Database.prepare (/Users/satvadiv/control_hub/culture_bot/node_modules/better-sqlite3/lib/methods/wrappers.js:5:21)
+    at Object.createSchedule (/Users/satvadiv/control_hub/culture_bot/DatabaseOperation.js:31:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.createOrUpdateSchedule (/Users/satvadiv/control_hub/culture_bot/WebexHelperService.js:27:7)
+    at async Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:150:7) Error type: DB
+2022-09-19 18:52:56 error: Error While submitting TypeError: Cannot set properties of undefined (setting 'parentId')
+    at Bot.reply (/Users/satvadiv/control_hub/culture_bot/node_modules/webex-node-bot-framework/lib/bot.js:1103:23)
+    at Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:151:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-09-19 18:54:31 error: Error While submitting Error Message: Error while updating schedules SqliteError: no such column: id
+    at Database.prepare (/Users/satvadiv/control_hub/culture_bot/node_modules/better-sqlite3/lib/methods/wrappers.js:5:21)
+    at Object.updateSchedule (/Users/satvadiv/control_hub/culture_bot/DatabaseOperation.js:44:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.createOrUpdateSchedule (/Users/satvadiv/control_hub/culture_bot/WebexHelperService.js:25:7)
+    at async Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:150:7) Error type: DB
+2022-09-19 18:59:00 error: Error While submitting TypeError: Cannot set properties of undefined (setting 'parentId')
+    at Bot.reply (/Users/satvadiv/control_hub/culture_bot/node_modules/webex-node-bot-framework/lib/bot.js:1103:23)
+    at Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:151:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-09-19 18:59:45 error: Error While submitting TypeError: Cannot set properties of undefined (setting 'parentId')
+    at Bot.reply (/Users/satvadiv/control_hub/culture_bot/node_modules/webex-node-bot-framework/lib/bot.js:1103:23)
+    at Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:151:11)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2022-09-20 14:53:00 error: Error TypeError: Cannot read properties of undefined (reading 'webex') Occurred while fetching bot instance for TypeError: Cannot read properties of undefined (reading 'webex')
+2022-09-20 14:54:00 error: Error TypeError: Cannot read properties of undefined (reading 'webex') Occurred while fetching bot instance for TypeError: Cannot read properties of undefined (reading 'webex')
+2022-09-20 14:58:01 error: Error BadRequest: The request could not be understood by the server due to malformed syntax.
+POST https://hydra-a.wbx2.com/v1/messages
+WEBEX_TRACKING_ID: webex-js-sdk_9b039edd-452f-44bf-91ff-f9af75c6b665_10
+ Occurred while fetching bot instance for BadRequest: The request could not be understood by the server due to malformed syntax.
+POST https://hydra-a.wbx2.com/v1/messages
+WEBEX_TRACKING_ID: webex-js-sdk_9b039edd-452f-44bf-91ff-f9af75c6b665_10
+
+2022-09-20 15:08:00 error: Error ReferenceError: bot is not defined Occurred while fetching bot instance for ReferenceError: bot is not defined
+2022-09-21 12:27:00 error: Error [object Object] Occurred while fetching bot instance for [object Object]
+2022-09-21 12:28:00 error: Error [object Object] Occurred while fetching bot instance for [object Object]
+2022-09-21 12:29:00 error: Error [object Object] Occurred while fetching bot instance for [object Object]
+2022-09-21 12:30:00 error: Error [object Object] Occurred while fetching bot instance for [object Object]
+2022-09-21 12:31:00 error: Error [object Object] Occurred while fetching bot instance for [object Object]
+2022-09-21 12:32:00 error: Error [object Object] Occurred while fetching bot instance for [object Object]
+2022-09-21 12:33:00 error: Error [object Object] Occurred while fetching bot instance for [object Object]
+2022-09-21 12:34:00 error: Error [object Object] Occurred while fetching bot instance for [object Object]
+2022-09-21 12:41:00 error: Error Occurred while posting cultures into space {"message":"Error while fetching schedules TypeError: Cannot read properties of undefined (reading 'trait_type')\n    at Object.getNextTraitByIdAndType (/Users/satvadiv/control_hub/culture_bot/DatabaseOperation.js:116:42)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.postCulturesInSpaces (/Users/satvadiv/control_hub/culture_bot/WebexHelperService.js:41:19)","type":"DB"}

@@ -1,0 +1,116 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "style": "accent",
+            "bleed": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "weight": "Lighter",
+                            "text": "Customize Point of Contact Backup List",
+                            "wrap": true,
+                            "size": "Medium",
+                            "fontType": "Default"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "My Backup For:",
+                            "id": "Backup",
+                            "fontType": "Default",
+                            "weight": "Lighter",
+                            "color": "Accent"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "initiative_name_1",
+                            "spacing": "Small",
+                            "maxLength": 50,
+                            "placeholder": "Enter Task"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "initiative_name_2",
+                            "maxLength": 50,
+                            "spacing": "Small",
+                            "placeholder": "Enter Task"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "id": "initiative_name_3",
+                            "maxLength": 50,
+                            "spacing": "Small",
+                            "placeholder": "Enter Task"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Point of Contact:",
+                            "weight": "Lighter",
+                            "color": "Accent"
+                        },
+                        {
+                            "type": "Input.Text",
+                            "spacing": "Small",
+                            "id": "backup_person_1",
+                            "maxLength": 50,
+                            "placeholder": "Enter Backup Person"
+                            
+                        },
+                        {
+                            "type": "Input.Text",
+                            "spacing": "Small",
+                            "maxLength": 50,
+                            "id": "backup_person_2",
+                            "placeholder": "Enter Backup Person"
+                            
+                        },
+                        {
+                            "type": "Input.Text",
+                            "spacing": "Small",
+                            "maxLength": 50,
+                            "id": "backup_person_3",
+                            "placeholder": "Enter Backup Person"
+                            
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Submit",
+                    "id": "submit"
+                }
+            ],
+            "separator": true
+        }
+    ]
+}

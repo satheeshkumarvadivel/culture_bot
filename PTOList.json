@@ -1,0 +1,59 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "style": "accent",
+            "bleed": true,
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "weight": "Lighter",
+                            "text": "Customize Favourite Spaces List",
+                            "wrap": true,
+                            "color": "Dark",
+                            "size": "Large",
+                            "fontType": "Default"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "id": "column_set_spaces_to_post",
+            "columns": [
+                {
+                    "type": "Column",
+                    "id": "column_spaces_to_post",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "isVisible": false,
+            "wrap": true,
+            "id": "EmptyMessage",
+            "text": "Add the Bot to the space in which you want to post the PTO message. The added spaces will be available for selection in new form using customizePTOFavouriteSpacesList cmd",
+            "color": "Attention"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Submit",
+                    "id": "submit"
+                }
+            ],
+            "separator": true
+        }
+    ]
+}

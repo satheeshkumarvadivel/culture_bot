@@ -1,0 +1,48 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "bleed": true,
+            "style": "good",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://developer.webex.com/images/webex-teams-logo.png",
+                            "altText": "Team Member Image",
+                            "size": "Medium",
+                            "style": "Person"
+                        },
+                        {
+                            "type": "TextBlock",
+                            "weight": "Bolder",
+                            "text": "TEAM MEMBER TRAIT",
+                            "wrap": true,
+                            "color": "Default",
+                            "size": "Large",
+                            "fontType": "Default",
+                            "isSubtle": false
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Am I a good team member?",
+            "spacing": "Medium",
+            "weight": "Lighter",
+            "color": "Default",
+            "wrap": true,
+            "horizontalAlignment": "Left",
+            "size": "Large"
+        }
+    ]
+}

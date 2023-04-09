@@ -1,0 +1,107 @@
+[
+  {
+    "contentType": "application/vnd.microsoft.card.adaptive",
+    "content": {
+      "type": "AdaptiveCard",
+      "version": "1.2",
+      "body": [
+        {
+          "type": "Container",
+          "items": [
+            {
+              "type": "ColumnSet",
+              "columns": [
+                {
+                  "type": "Column",
+                  "items": [
+                    {
+                      "type": "Image",
+                      "id": "avatar",
+                      "style": "Person",
+                      "url": "{avatar}",
+                      "size": "Large",
+                      "separator": true
+                    }
+                  ],
+                  "width": 1,
+                  "separator": true
+                },
+
+                {
+                  "type": "Column",
+                  "spacing": "default",
+                  "items": [
+                    {
+                      "type": "TextBlock",
+                      "id": "name",
+                      "text": "{name}",
+                      "wrap": true,
+                      "fontType": "Lighter",
+                      "size": "Large",
+                      "color": "Accent",
+                      "spacing": "ExtraLarge"
+                    },
+                    {
+                      "type": "TextBlock",
+                      "id": "email",
+                      "spacing": "None",
+                      "text": "{email}",
+                      "isSubtle": true,
+                      "wrap": true,
+                      "fontType": "Default",
+                      "weight": "Lighter"
+                    },
+                    {
+                      "type": "FactSet",
+                      "separator": true,
+                      
+                      "facts": [
+                        {
+                          "id":"from_date",
+                          "title": "From Date",
+                          "value": "{date}"
+                        },
+                        {
+                          "id":"to_date",
+                          "title": "To Date",
+                          "value": "{date}"
+                        },
+                        {
+                          "id":"pto_message",
+                          "title": "PTO Message",
+                          "value": "{pto_message}",
+                          "wrap":true
+                        }
+                      ],
+          
+                      "height": "stretch"
+                    }
+                  ],
+                  "width": 3
+                  
+                }
+               
+              ]
+            }
+          ],
+          "bleed": true
+        }
+      ],
+      "actions": [
+        {
+          "type": "Action.ShowCard",
+          "title": "Backup Person",
+          "card": {
+            "type": "AdaptiveCard",
+            "body": [
+              {
+                "type": "FactSet",
+                "facts": []
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+]

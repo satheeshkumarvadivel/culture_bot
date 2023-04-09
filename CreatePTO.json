@@ -1,0 +1,134 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "bleed": true,
+            "style": "accent",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "weight": "Lighter",
+                            "text": "Create Paid Time Off (PTO) for Duration",
+                            "wrap": true,
+                            "color": "Dark",
+                            "size": "Large",
+                            "fontType": "Default"
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ]
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "From Date:",
+                            "weight": "Lighter",
+                            "color": "Accent"
+                        },
+                        {
+                            "type": "Input.Date",
+                            "id": "from_date",
+                            "value": "2021-02-13",
+                            "spacing": "Small"
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "To Date:",
+                            "weight": "Lighter",
+                            "color": "Accent"
+                        },
+                        {
+                            "type": "Input.Date",
+                            "spacing": "Small",
+                            "id": "to_date",
+                            "value": "2021-02-13"
+                        }
+                    ]
+                }
+            ],
+            "spacing": "Large"
+        },
+        {
+            "type": "TextBlock",
+            "text": "PTO Message:",
+            "spacing": "Medium",
+            "weight": "Lighter",
+            "color": "Accent"
+        },
+        {
+            "type": "Input.Text",
+            "id": "pto_message",
+            "maxLength": 100,
+            "spacing": "Small",
+            "placeholder": "Type in your PTO message"
+        },
+        {
+            "type": "TextBlock",
+           
+            "spacing": "Medium",
+            "weight": "Lighter",
+            "color": "Accent"
+        },
+        {
+            "type": "ColumnSet",
+            "id": "column_set_spaces_to_post",
+            "columns": [
+                {
+                    "type": "Column",
+                    "id": "column_spaces_to_post",
+                    "items": []
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "isVisible": false,
+            "wrap": true,
+            "id": "EmptyMessage",
+            "text": "Spaces to post is empty. Add the spaces via the command - **'customizePTOFavouriteSpacesList'**.",
+            "spacing": "Small",
+            "size": "Small",
+            "weight": "Lighter",
+            "color": "Attention"
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.ShowCard",
+            "title": "Backup Point of Contact List",
+            "card": {
+                "type": "AdaptiveCard",
+                "body": [
+                    {
+                        "type": "FactSet",
+                        "facts": []
+                    }
+                ]
+            }
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Submit",
+            "data": {}
+        }
+    ]
+}

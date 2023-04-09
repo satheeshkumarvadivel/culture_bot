@@ -1,0 +1,82 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "https://i.postimg.cc/mkpFh5LT/helper-cartoon.jpg",
+                            "size": "Large",
+                            "height": "300px",
+                            "separator": true
+                        }
+                    ],
+                    "width": "auto"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "Hello **{personName}**, I'm here to help you. \n These are the list of commands I can respond to:\n",
+            "wrap": true,
+            "weight": "Lighter"
+        },
+        {
+            "type": "TextBlock",
+            "text": "**'1'** or **customizePTOFavouriteSpacesList** to create/edit a list of favourite spaces. These are the spaces in which I will post your absence message. Make sure to add me in the spaces you want to post your PTO message, or else I won't be able to post there.\n ",
+            "wrap": true,
+            "weight": "Lighter"
+        },
+        {
+            "type": "TextBlock",
+            "text": "**'2'** or **customizeBackupPOCList** to create/edit a list of backup folks. A list that contains names of collegues to be contacted during your absence.\n ",
+            "wrap": true,
+            "weight": "Lighter"
+        },
+        {
+            "type": "TextBlock",
+            "text": "**'3'** or **generatePTOCardForToday** to create a PTO for today only. It can be full day, half day, or just a few hours.\n ",
+            "wrap": true,
+            "weight": "Lighter"
+        },
+        {
+            "type": "TextBlock",
+            "text": "**'4'** or **generatePTOCardForDuration** to create a PTO for a **Duration**.\n",
+            "wrap": true,
+            "weight": "Lighter",
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "text": "**'5'** or **help** to find the list of commands I can respond to.\n",
+            "wrap": true,
+            "weight": "Lighter",
+            "fontType": "Default"
+        },
+        {
+            "type": "TextBlock",
+            "text": "_And thats it, you're all set! Let me give you a few examples._ \n\n Example 1: \nIf you type '3' and schedule a time off for a few hours today, that message will instantly be posted in all your favourite spaces! \n\n Example 2: \nIf you type '4' and schedule a leave for a duration of one or more days, I'll be posting your PTO message at '9AM IST' everyday between entered duration in all your favourite spaces.",
+            "weight": "Lighter",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "**Please DO NOT issue welcomeMembers command.\n It is to be used ONLY by whoever adds the bot to the space.**",
+            "weight": "Lighter",
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "_Tata Bye Bye!_ ",
+            "wrap": true,
+            "fontType": "Default",
+            "color": "Accent"
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.2"
+}
