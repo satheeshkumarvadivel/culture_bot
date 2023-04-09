@@ -82,3 +82,14 @@ WEBEX_TRACKING_ID: webex-js-sdk_9b039edd-452f-44bf-91ff-f9af75c6b665_10
 2022-09-21 12:33:00 error: Error [object Object] Occurred while fetching bot instance for [object Object]
 2022-09-21 12:34:00 error: Error [object Object] Occurred while fetching bot instance for [object Object]
 2022-09-21 12:41:00 error: Error Occurred while posting cultures into space {"message":"Error while fetching schedules TypeError: Cannot read properties of undefined (reading 'trait_type')\n    at Object.getNextTraitByIdAndType (/Users/satvadiv/control_hub/culture_bot/DatabaseOperation.js:116:42)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async Object.postCulturesInSpaces (/Users/satvadiv/control_hub/culture_bot/WebexHelperService.js:41:19)","type":"DB"}
+2023-04-09 20:15:25 error: Error While submitting Error Message: Error while inserting schedules SqliteError: table schedules has no column named time
+    at Database.prepare (/Users/satvadiv/control_hub/culture_bot/node_modules/better-sqlite3/lib/methods/wrappers.js:5:21)
+    at Object.createSchedule (/Users/satvadiv/control_hub/culture_bot/DatabaseOperation.js:26:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.createOrUpdateSchedule (/Users/satvadiv/control_hub/culture_bot/WebexHelperService.js:31:7)
+    at async Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:155:7) Error type: DB
+2023-04-09 20:59:00 error: Error Occurred while posting cultures into space {}
+2023-04-09 21:00:00 error: Error Occurred while posting cultures into space {}
+2023-04-09 21:05:00 error: Error Occurred while posting cultures into space {}
+2023-04-09 21:14:00 error: Error Occurred while posting cultures into space {}
+2023-04-09 21:15:00 error: Error Occurred while posting cultures into space {}

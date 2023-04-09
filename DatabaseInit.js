@@ -12,6 +12,7 @@ var DbConnection = function () {
             let _db = new sqlitedb('./pto.db', { verbose: console.log })
             return _db
         } catch (e) {
+            logger.info(e);
             throw new BotError(`error while connecting to db  --> ` + e.stack,"DB")
         }
     }
@@ -27,6 +28,7 @@ var DbConnection = function () {
                 return db
             }
         } catch (e) {
+            logger.info(e);
             throw new BotError(`error while getting new db connection --> ` + e.stack,"DB")
         }
     }

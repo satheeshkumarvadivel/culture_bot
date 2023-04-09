@@ -22,9 +22,10 @@
   },
   "homepage": "https://github.com/tbd/webexbotstarter#readme",
   "dependencies": {
-    "better-sqlite3": "^7.6.2",
+    "better-sqlite3": "^8.3.0",
     "body-parser": "^1.15.2",
     "cron-job-manager": "^2.1.4",
+    "dayjs": "^1.11.7",
     "express": "^4.14.0",
     "forever": "^4.0.3",
     "node-fetch": "^2.6.1",

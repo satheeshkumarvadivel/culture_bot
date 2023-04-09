@@ -1,7 +1,7 @@
 {
     "type": "AdaptiveCard",
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.2",
+    "version": "1.3",
     "body": [
         {
             "type": "ColumnSet",
@@ -67,22 +67,64 @@
         {
             "type": "Input.ChoiceSet",
             "id":"frequency",
-            "isRequired": true,
-            "errorMessage": "This is a required input",
-            "isMultiSelect": false,
-            "style": "expanded",
             "choices": [
                 {
-                    "title": "Daily",
-                    "value": "daily"
+                    "title": "All Weekdays",
+                    "value": "8"
                 },
                 {
-                    "title": "Weekly",
-                    "value": "weekly",
-                    "type":"Input.Choice"
+                    "title": "Every Monday",
+                    "value": "1"
+                },
+                {
+                    "title": "Every Tuesday",
+                    "value": "2"
+                },
+                {
+                    "title": "Every Wednesday",
+                    "value": "3"
+                },
+                {
+                    "title": "Every Thursday",
+                    "value": "4"
+                },
+                {
+                    "title": "Every Friday",
+                    "value": "5"
                 }
             ],
-            "placeholder": "Choose how frequent to post"
+            "placeholder": "All Weekdays",
+            "value": "weekdays"
+        },
+        {
+            "type": "TextBlock",
+            "text": "At what time do you want me to post?",
+            "spacing": "Medium",
+            "weight": "Lighter",
+            "color": "Accent"
+        },
+        {
+            "type": "Input.Time",
+            "id":"time",
+            "isRequired": true,
+            "errorMessage": "This is a required input",
+            "value": "09:00"
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "id":"timezone",
+            "choices": [
+                {
+                    "title": "Asia/Kolkata",
+                    "value": "Asia/Kolkata"
+                },
+                {
+                    "title": "America/New_York",
+                    "value": "America/New_York"
+                }
+            ],
+            "placeholder": "Asia/Kolkata",
+            "value": "Asia/Kolkata"
         }
     ],
     "actions": [        

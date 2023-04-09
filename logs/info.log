@@ -3025,3 +3025,1334 @@ WEBEX_TRACKING_ID: webex-js-sdk_9b039edd-452f-44bf-91ff-f9af75c6b665_10
 2023-03-02 14:18:02 info: framework is all fired up! [Press CTRL-C to quit]
 2023-03-02 14:18:02 info: Creating Tables
 2023-03-02 14:18:02 info: getting new db connection
+2023-04-09 12:18:17 info: Starting framework, please wait...
+2023-04-09 12:18:27 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 12:18:27 info: Creating Tables
+2023-04-09 12:18:27 info: getting new db connection
+2023-04-09 12:21:22 info: Starting framework, please wait...
+2023-04-09 12:21:30 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 12:21:30 info: Creating Tables
+2023-04-09 12:21:30 info: getting new db connection
+2023-04-09 12:25:21 info: Starting framework, please wait...
+2023-04-09 12:25:30 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 12:25:30 info: Creating Tables
+2023-04-09 12:25:30 info: getting new db connection
+2023-04-09 12:43:40 info: Starting framework, please wait...
+2023-04-09 12:43:49 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 12:43:49 info: Creating Tables
+2023-04-09 12:43:49 info: getting new db connection
+2023-04-09 12:45:38 info: Starting framework, please wait...
+2023-04-09 12:45:46 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 12:45:46 info: Creating Tables
+2023-04-09 12:45:46 info: getting new db connection
+2023-04-09 12:48:34 info: Starting framework, please wait...
+2023-04-09 12:48:43 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 12:48:43 info: Creating Tables
+2023-04-09 12:48:43 info: getting new db connection
+2023-04-09 12:48:43 info: The module '/Users/satvadiv/control_hub/culture_bot/node_modules/better-sqlite3/build/Release/better_sqlite3.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 108. This version of Node.js requires
+NODE_MODULE_VERSION 111. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+2023-04-09 12:48:43 info: error while connecting to db  --> Error: The module '/Users/satvadiv/control_hub/culture_bot/node_modules/better-sqlite3/build/Release/better_sqlite3.node'
+was compiled against a different Node.js version using
+NODE_MODULE_VERSION 108. This version of Node.js requires
+NODE_MODULE_VERSION 111. Please try re-compiling or re-installing
+the module (for instance, using `npm rebuild` or `npm install`).
+    at Module._extensions..node (node:internal/modules/cjs/loader:1302:18)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Module._load (node:internal/modules/cjs/loader:922:12)
+    at Module.require (node:internal/modules/cjs/loader:1105:19)
+    at require (node:internal/modules/cjs/helpers:103:18)
+    at bindings (/Users/satvadiv/control_hub/culture_bot/node_modules/bindings/bindings.js:112:48)
+    at new Database (/Users/satvadiv/control_hub/culture_bot/node_modules/better-sqlite3/lib/database.js:48:64)
+    at DbConnect (/Users/satvadiv/control_hub/culture_bot/DatabaseInit.js:12:23)
+    at Object.Get (/Users/satvadiv/control_hub/culture_bot/DatabaseInit.js:27:28)
+    at Object.create (/Users/satvadiv/control_hub/culture_bot/DatabaseOperation.js:8:41)
+2023-04-09 12:48:43 info: error while getting new db connection --> undefined
+2023-04-09 12:56:53 info: Starting framework, please wait...
+2023-04-09 12:57:02 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 12:57:02 info: Creating Tables
+2023-04-09 12:57:02 info: getting new db connection
+2023-04-09 12:57:03 info: createSchedulesQuery: CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[spaceid] NVARCHAR(120),[trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))
+2023-04-09 12:57:03 info: createTraitsQuery: CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[trait] NVARCHAR(250),[trait_type] NVARCHAR(20))
+2023-04-09 12:57:03 info: Tables created successfully.
+2023-04-09 12:57:03 info: Populating traits json into database.
+2023-04-09 12:57:03 info: Inserted traits into the database.
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 12:57:03 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 12:57:03 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 12:57:03 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 12:57:03 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 12:57:03 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 12:57:03 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 12:57:03 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 12:57:03 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 12:57:03 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 12:57:03 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 12:57:03 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 12:57:03 info: Starting Cron Job
+2023-04-09 12:57:03 info: cronjob started
+2023-04-09 12:57:03 info: Cron Job Started
+2023-04-09 12:58:41 info: catch-all handler fired for user input: culture_bot
+2023-04-09 13:00:36 info: Start configuring culture bot...
+2023-04-09 13:00:37 info: User input: culture_bot configure
+2023-04-09 13:00:49 info: inputs : {"trait_type":"all_traits","frequency":"daily"}
+2023-04-09 13:00:49 info: configureSubmitted
+2023-04-09 13:00:49 info: Post all_traits to Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm daily
+2023-04-09 13:00:49 info: Checking if there is already a schedule for spaceId Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 13:00:49 info: Fetching culture bot configuration schedule for the spaceId : Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 13:00:49 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"daily","last_posted_good_trait_id":12,"last_posted_bad_trait_id":34,"last_posted_trait_type":"BAD"}
+2023-04-09 13:00:49 info: Found existing schedule for the spaceId : Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 13:00:49 info: Updating culture bot configuration schedule.
+2023-04-09 13:00:49 info: Updated schedules details into the database.
+2023-04-09 13:00:49 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"daily","last_posted_good_trait_id":12,"last_posted_bad_trait_id":34,"last_posted_trait_type":"BAD"}
+2023-04-09 20:09:28 info: Starting framework, please wait...
+2023-04-09 20:09:38 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 20:09:38 info: Creating Tables
+2023-04-09 20:09:38 info: getting new db connection
+2023-04-09 20:09:38 info: createSchedulesQuery: CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[spaceid] NVARCHAR(120),[trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [time] NVARCHAR(10), [timezone] NVARCHAR(50) [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))
+2023-04-09 20:09:38 info: near "[last_posted_good_trait_id]": syntax error
+2023-04-09 20:11:32 info: Starting framework, please wait...
+2023-04-09 20:11:41 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 20:11:41 info: Creating Tables
+2023-04-09 20:11:41 info: getting new db connection
+2023-04-09 20:11:41 info: no such table: traits
+2023-04-09 20:13:00 info: Starting framework, please wait...
+2023-04-09 20:13:10 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 20:13:10 info: Creating Tables
+2023-04-09 20:13:10 info: getting new db connection
+2023-04-09 20:13:10 info: createSchedulesQuery: CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, [spaceid] NVARCHAR(120), [trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [time] NVARCHAR(10), [timezone] NVARCHAR(50), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))
+2023-04-09 20:13:10 info: createTraitsQuery: CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[trait] NVARCHAR(250),[trait_type] NVARCHAR(20))
+2023-04-09 20:13:10 info: Tables created successfully.
+2023-04-09 20:13:10 info: Populating traits json into database.
+2023-04-09 20:13:10 info: Inserted traits into the database.
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 20:13:10 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 20:13:10 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 20:13:10 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 20:13:10 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 20:13:10 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 20:13:10 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 20:13:10 info: Starting Cron Job
+2023-04-09 20:13:10 info: cronjob started
+2023-04-09 20:13:10 info: Cron Job Started
+2023-04-09 20:14:16 info: Start configuring culture bot...
+2023-04-09 20:14:16 info: User input: culture_bot configure
+2023-04-09 20:15:25 info: inputs : {"trait_type":"all_traits","frequency":"weekdays","time":"17:01","timezone":"PST"}
+2023-04-09 20:15:25 info: configureSubmitted
+2023-04-09 20:15:25 info: Post all_traits to Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm weekdays
+2023-04-09 20:15:25 info: Checking if there is already a schedule for spaceId Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 20:15:25 info: Fetching culture bot configuration schedule for the spaceId : Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 20:15:25 info: Creating culture bot configuration schedule.
+2023-04-09 20:15:25 info: table schedules has no column named time
+2023-04-09 20:15:25 error: Error While submitting Error Message: Error while inserting schedules SqliteError: table schedules has no column named time
+    at Database.prepare (/Users/satvadiv/control_hub/culture_bot/node_modules/better-sqlite3/lib/methods/wrappers.js:5:21)
+    at Object.createSchedule (/Users/satvadiv/control_hub/culture_bot/DatabaseOperation.js:26:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.createOrUpdateSchedule (/Users/satvadiv/control_hub/culture_bot/WebexHelperService.js:31:7)
+    at async Framework.<anonymous> (/Users/satvadiv/control_hub/culture_bot/index.js:155:7) Error type: DB
+2023-04-09 20:17:01 info: Starting framework, please wait...
+2023-04-09 20:17:09 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 20:17:09 info: Creating Tables
+2023-04-09 20:17:09 info: getting new db connection
+2023-04-09 20:17:09 info: createSchedulesQuery: CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, [spaceid] NVARCHAR(120), [trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [time] NVARCHAR(10), [timezone] NVARCHAR(50), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))
+2023-04-09 20:17:09 info: createTraitsQuery: CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[trait] NVARCHAR(250),[trait_type] NVARCHAR(20))
+2023-04-09 20:17:09 info: Tables created successfully.
+2023-04-09 20:17:09 info: Populating traits json into database.
+2023-04-09 20:17:09 info: Inserted traits into the database.
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 20:17:09 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 20:17:09 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 20:17:09 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 20:17:09 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 20:17:09 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 20:17:09 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 20:17:09 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 20:17:09 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 20:17:09 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 20:17:09 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 20:17:09 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 20:17:09 info: Starting Cron Job
+2023-04-09 20:17:09 info: cronjob started
+2023-04-09 20:17:09 info: Cron Job Started
+2023-04-09 20:17:27 info: Start configuring culture bot...
+2023-04-09 20:17:28 info: User input: culture_bot configure
+2023-04-09 20:18:01 info: inputs : {"trait_type":"all_traits","timezone":"PST","time":"20:02","frequency":"weekdays"}
+2023-04-09 20:18:01 info: configureSubmitted
+2023-04-09 20:18:01 info: Post all_traits to Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm weekdays
+2023-04-09 20:18:01 info: Checking if there is already a schedule for spaceId Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 20:18:01 info: Fetching culture bot configuration schedule for the spaceId : Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 20:18:01 info: Creating culture bot configuration schedule.
+2023-04-09 20:18:01 info: Inserted schedule details into the database.
+2023-04-09 20:18:01 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"20:02","timezone":"PST","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 20:22:09 info: inputs : {"trait_type":"all_traits","time":"","frequency":"weekdays","timezone":""}
+2023-04-09 20:22:09 info: configureSubmitted
+2023-04-09 20:22:10 info: Post all_traits to Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm weekdays
+2023-04-09 20:22:10 info: Checking if there is already a schedule for spaceId Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 20:22:10 info: Fetching culture bot configuration schedule for the spaceId : Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 20:22:10 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"20:02","timezone":"PST","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 20:22:10 info: Found existing schedule for the spaceId : Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 20:22:10 info: Updating culture bot configuration schedule.
+2023-04-09 20:22:10 info: Updated schedules details into the database.
+2023-04-09 20:22:10 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"","timezone":"","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 20:58:00 info: Starting framework, please wait...
+2023-04-09 20:58:09 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 20:58:09 info: Creating Tables
+2023-04-09 20:58:09 info: getting new db connection
+2023-04-09 20:58:09 info: createSchedulesQuery: CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, [spaceid] NVARCHAR(120), [trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [time] NVARCHAR(10), [timezone] NVARCHAR(50), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))
+2023-04-09 20:58:09 info: createTraitsQuery: CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[trait] NVARCHAR(250),[trait_type] NVARCHAR(20))
+2023-04-09 20:58:09 info: Tables created successfully.
+2023-04-09 20:58:09 info: Populating traits json into database.
+2023-04-09 20:58:09 info: Inserted traits into the database.
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 20:58:09 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 20:58:09 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 20:58:09 info: Starting Cron Job
+2023-04-09 20:58:09 info: cronjob started
+2023-04-09 20:58:09 info: Cron Job Started
+2023-04-09 20:58:28 info: Start configuring culture bot...
+2023-04-09 20:58:29 info: User input: culture_bot configure
+2023-04-09 20:58:49 info: inputs : {"frequency":"weekdays","trait_type":"all_traits","time":"21:00","timezone":"Asia/Calcutta"}
+2023-04-09 20:58:49 info: configureSubmitted
+2023-04-09 20:58:49 info: Post all_traits to Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm weekdays
+2023-04-09 20:58:49 info: Checking if there is already a schedule for spaceId Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 20:58:49 info: Fetching culture bot configuration schedule for the spaceId : Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 20:58:49 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"","timezone":"","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 20:58:49 info: Found existing schedule for the spaceId : Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm
+2023-04-09 20:58:49 info: Updating culture bot configuration schedule.
+2023-04-09 20:58:49 info: Updated schedules details into the database.
+2023-04-09 20:58:49 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"21:00","timezone":"Asia/Calcutta","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 20:59:00 info: CronJob Executed.
+2023-04-09 20:59:00 info: Calling postCulturesInSpaces method by cronjob
+2023-04-09 20:59:00 info: Fetching all schedules
+2023-04-09 20:59:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"21:00","timezone":"Asia/Calcutta","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 20:59:00 info: [object Object]
+2023-04-09 20:59:00 info: serverTime : Sun Apr 09 2023 20:59:00 GMT+0530 (India Standard Time)
+2023-04-09 20:59:00 info: targetTime : 1681054140003
+2023-04-09 20:59:00 error: Error Occurred while posting cultures into space {}
+2023-04-09 20:59:00 info: Completed postCulturesInSpaces() method execution.
+2023-04-09 21:00:00 info: CronJob Executed.
+2023-04-09 21:00:00 info: Calling postCulturesInSpaces method by cronjob
+2023-04-09 21:00:00 info: Fetching all schedules
+2023-04-09 21:00:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"21:00","timezone":"Asia/Calcutta","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 21:00:00 info: [object Object]
+2023-04-09 21:00:00 info: serverTime : Sun Apr 09 2023 21:00:00 GMT+0530 (India Standard Time)
+2023-04-09 21:00:00 info: targetTime : 1681054200003
+2023-04-09 21:00:00 error: Error Occurred while posting cultures into space {}
+2023-04-09 21:00:00 info: Completed postCulturesInSpaces() method execution.
+2023-04-09 21:04:02 info: Starting framework, please wait...
+2023-04-09 21:04:11 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 21:04:11 info: Creating Tables
+2023-04-09 21:04:11 info: getting new db connection
+2023-04-09 21:04:11 info: createSchedulesQuery: CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, [spaceid] NVARCHAR(120), [trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [time] NVARCHAR(10), [timezone] NVARCHAR(50), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))
+2023-04-09 21:04:11 info: createTraitsQuery: CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[trait] NVARCHAR(250),[trait_type] NVARCHAR(20))
+2023-04-09 21:04:11 info: Tables created successfully.
+2023-04-09 21:04:11 info: Populating traits json into database.
+2023-04-09 21:04:11 info: Inserted traits into the database.
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:04:11 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:04:11 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:04:11 info: Starting Cron Job
+2023-04-09 21:04:11 info: cronjob started
+2023-04-09 21:04:11 info: Cron Job Started
+2023-04-09 21:05:00 info: CronJob Executed.
+2023-04-09 21:05:00 info: Calling postCulturesInSpaces method by cronjob
+2023-04-09 21:05:00 info: Fetching all schedules
+2023-04-09 21:05:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"21:05","timezone":"Asia/Calcutta","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 21:05:00 info: [object Object]
+2023-04-09 21:05:00 info: serverTime : Sun Apr 09 2023 21:05:00 GMT+0530 (India Standard Time)
+2023-04-09 21:05:00 info: Schedule Time : 21:05 Asia/Calcutta
+2023-04-09 21:05:00 info: targetTime : 2023-04-09T15:35:00.003Z
+2023-04-09 21:05:00 error: Error Occurred while posting cultures into space {}
+2023-04-09 21:05:00 info: Completed postCulturesInSpaces() method execution.
+2023-04-09 21:13:39 info: Starting framework, please wait...
+2023-04-09 21:13:49 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 21:13:49 info: Creating Tables
+2023-04-09 21:13:49 info: getting new db connection
+2023-04-09 21:13:49 info: createSchedulesQuery: CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, [spaceid] NVARCHAR(120), [trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [time] NVARCHAR(10), [timezone] NVARCHAR(50), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))
+2023-04-09 21:13:49 info: createTraitsQuery: CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[trait] NVARCHAR(250),[trait_type] NVARCHAR(20))
+2023-04-09 21:13:49 info: Tables created successfully.
+2023-04-09 21:13:49 info: Populating traits json into database.
+2023-04-09 21:13:49 info: Inserted traits into the database.
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:13:49 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:13:49 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:13:49 info: Starting Cron Job
+2023-04-09 21:13:49 info: cronjob started
+2023-04-09 21:13:49 info: Cron Job Started
+2023-04-09 21:14:00 info: CronJob Executed.
+2023-04-09 21:14:00 info: Calling postCulturesInSpaces method by cronjob
+2023-04-09 21:14:00 info: Fetching all schedules
+2023-04-09 21:14:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"21:16","timezone":"Asia/Kolkatta","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 21:14:00 info: [object Object]
+2023-04-09 21:14:00 info: serverTime : Sun Apr 09 2023 21:14:00 GMT+0530 (India Standard Time)
+2023-04-09 21:14:00 info: Schedule Time : 21:16 Asia/Kolkatta
+2023-04-09 21:14:00 error: Error Occurred while posting cultures into space {}
+2023-04-09 21:14:00 info: Completed postCulturesInSpaces() method execution.
+2023-04-09 21:15:00 info: CronJob Executed.
+2023-04-09 21:15:00 info: Calling postCulturesInSpaces method by cronjob
+2023-04-09 21:15:00 info: Fetching all schedules
+2023-04-09 21:15:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"21:16","timezone":"Asia/Kolkatta","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 21:15:00 info: [object Object]
+2023-04-09 21:15:00 info: serverTime : Sun Apr 09 2023 21:15:00 GMT+0530 (India Standard Time)
+2023-04-09 21:15:00 info: Schedule Time : 21:16 Asia/Kolkatta
+2023-04-09 21:15:00 error: Error Occurred while posting cultures into space {}
+2023-04-09 21:15:00 info: Completed postCulturesInSpaces() method execution.
+2023-04-09 21:17:49 info: Starting framework, please wait...
+2023-04-09 21:17:57 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 21:17:57 info: Creating Tables
+2023-04-09 21:17:57 info: getting new db connection
+2023-04-09 21:17:57 info: createSchedulesQuery: CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, [spaceid] NVARCHAR(120), [trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [time] NVARCHAR(10), [timezone] NVARCHAR(50), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))
+2023-04-09 21:17:57 info: createTraitsQuery: CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[trait] NVARCHAR(250),[trait_type] NVARCHAR(20))
+2023-04-09 21:17:57 info: Tables created successfully.
+2023-04-09 21:17:57 info: Populating traits json into database.
+2023-04-09 21:17:57 info: Inserted traits into the database.
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:17:57 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:17:57 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:17:57 info: Starting Cron Job
+2023-04-09 21:17:57 info: cronjob started
+2023-04-09 21:17:57 info: Cron Job Started
+2023-04-09 21:18:00 info: CronJob Executed.
+2023-04-09 21:18:00 info: Calling postCulturesInSpaces method by cronjob
+2023-04-09 21:18:00 info: Fetching all schedules
+2023-04-09 21:18:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"21:19","timezone":"Asia/Kolkata","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 21:18:00 info: [object Object]
+2023-04-09 21:18:00 info: serverTime : Sun Apr 09 2023 21:18:00 GMT+0530 (India Standard Time)
+2023-04-09 21:18:00 info: Schedule Time : 21:19 Asia/Kolkata
+2023-04-09 21:18:00 info: targetTime : 2023-04-09T15:48:00.004Z
+2023-04-09 21:18:00 info: date.toObject() : {"years":2023,"months":3,"date":9,"hours":21,"minutes":18,"seconds":0,"milliseconds":4}
+2023-04-09 21:19:00 info: CronJob Executed.
+2023-04-09 21:19:00 info: Calling postCulturesInSpaces method by cronjob
+2023-04-09 21:19:00 info: Fetching all schedules
+2023-04-09 21:19:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"21:19","timezone":"Asia/Kolkata","last_posted_good_trait_id":0,"last_posted_bad_trait_id":0,"last_posted_trait_type":"BAD"}
+2023-04-09 21:19:00 info: [object Object]
+2023-04-09 21:19:00 info: serverTime : Sun Apr 09 2023 21:19:00 GMT+0530 (India Standard Time)
+2023-04-09 21:19:00 info: Schedule Time : 21:19 Asia/Kolkata
+2023-04-09 21:19:00 info: targetTime : 2023-04-09T15:49:00.003Z
+2023-04-09 21:19:00 info: date.toObject() : {"years":2023,"months":3,"date":9,"hours":21,"minutes":19,"seconds":0,"milliseconds":3}
+2023-04-09 21:19:00 info: getNextTraitByIdAndTraitType()
+2023-04-09 21:19:00 info: {"id":1,"trait":"Am I a good team member who is very polite and approachable always?","trait_type":"GOOD"}
+2023-04-09 21:19:00 info: Posted team traits to space
+2023-04-09 21:19:00 info: Updating culture bot configuration schedule.
+2023-04-09 21:19:00 info: Updated last_posted_trait details in schedules
+2023-04-09 21:19:00 info: Completed postCulturesInSpaces() method execution.
+2023-04-09 21:19:00 info: Updated schedules details into the database.
+2023-04-09 21:19:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"21:19","timezone":"Asia/Kolkata","last_posted_good_trait_id":1,"last_posted_bad_trait_id":0,"last_posted_trait_type":"GOOD"}
+2023-04-09 21:20:00 info: CronJob Executed.
+2023-04-09 21:20:00 info: Calling postCulturesInSpaces method by cronjob
+2023-04-09 21:20:00 info: Fetching all schedules
+2023-04-09 21:20:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"weekdays","time":"21:19","timezone":"Asia/Kolkata","last_posted_good_trait_id":1,"last_posted_bad_trait_id":0,"last_posted_trait_type":"GOOD"}
+2023-04-09 21:20:00 info: [object Object]
+2023-04-09 21:20:00 info: serverTime : Sun Apr 09 2023 21:20:00 GMT+0530 (India Standard Time)
+2023-04-09 21:20:00 info: Schedule Time : 21:19 Asia/Kolkata
+2023-04-09 21:20:00 info: targetTime : 2023-04-09T15:50:00.002Z
+2023-04-09 21:20:00 info: date.toObject() : {"years":2023,"months":3,"date":9,"hours":21,"minutes":20,"seconds":0,"milliseconds":2}
+2023-04-09 21:42:07 info: Starting framework, please wait...
+2023-04-09 21:42:15 info: framework is all fired up! [Press CTRL-C to quit]
+2023-04-09 21:42:15 info: Creating Tables
+2023-04-09 21:42:15 info: getting new db connection
+2023-04-09 21:42:15 info: createSchedulesQuery: CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, [spaceid] NVARCHAR(120), [trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [time] NVARCHAR(10), [timezone] NVARCHAR(50), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))
+2023-04-09 21:42:15 info: createTraitsQuery: CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[trait] NVARCHAR(250),[trait_type] NVARCHAR(20))
+2023-04-09 21:42:15 info: Tables created successfully.
+2023-04-09 21:42:15 info: Populating traits json into database.
+2023-04-09 21:42:15 info: Inserted traits into the database.
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is very polite and approachable always?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is flexible to accommodate team priorities?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is warm and welcoming to new joiners and lends a helping hand wherever possible in their ramp up process?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is an active listener and is genuinely interested to understand other peers’ opinions/views?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is  trustworthy and completely owns up the tasks?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member  receptive to feedback and keen to consume the positive criticism from others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who when there is a team emergency or a production issue, doesn’t think twice to stretch or make personal sacrifices?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who out of personal interest comes up with solutions for any problem in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who feels proud and passionate about being part of the team and Cisco?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who stays well informed, up to date and willingly shares knowledge with the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who doesn’t think twice to use the words - "please", "thank you" and "sorry" and uses them very frequently?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is empathetic with all the colleagues as well as logical when dealing with a crisis in the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who ensures to highlight good qualities or efforts by a team member whenever I get a chance to represent the team?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who does not mind being technically challenged for my solutions and is ready to reconsider better approaches at any point of my work, if that is good at a long run for the product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who prefers planned leaves (if possible with - 3 to 4 weeks advance notice) and reserves unplanned leaves for only critical emergencies and applies the same on workday promptly?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is not rude and handles self gracefully when faced with negative criticism?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is inclusive and acknowledges everyone's flaws?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is impartial and unbiased and avoids preferential treatment with others?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who values time and does not waste self and others' time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who takes PTO by informing the direct manager, initiative team, and notifying in the "Where Am I" space?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who understands my responsibilities and handles them in a professional manner?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who sees the goals of my team rather than focusing on my own task?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who trusts their intuition and speaks up their ideas during a team discussion or at a brainstorming session?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who shares what they are up to regularly with the team and creates awareness to a new technology or to a new product?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who joins scheduled meetings on time?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who participates in team connect activities / meetings regularly and encourages other team members also to do so?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who is reliable and responsible team player ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who Optimistic and Future-Focused ?
+2023-04-09 21:42:15 info: GOOD:Am I a good team member who can impartially reflect on my own mistake, acknowledge what went wrong and then be conscious of not repeating it in the future
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who hijacks a meeting and is only fixated on his/her opinions and doesn’t let others express their views?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who is constantly complaining and sees only the negatives in others?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who when things go wrong, doesn’t come forward to own up the failure, instead starts the blame game?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who steals credit for others achievements?
+2023-04-09 21:42:15 info: BAD:Am I a bad team member who blows his own trumpet and constantly indulges in self praise?
+2023-04-09 21:42:15 info: Starting Cron Job
+2023-04-09 21:42:15 info: cronjob started
+2023-04-09 21:42:15 info: Cron Job Started
+2023-04-09 21:43:00 info: CronJob Executed.
+2023-04-09 21:43:00 info: Calling postCulturesInSpaces method by cronjob
+2023-04-09 21:43:00 info: Fetching all schedules
+2023-04-09 21:43:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"8","time":"21:44","timezone":"America/New_York","last_posted_good_trait_id":1,"last_posted_bad_trait_id":0,"last_posted_trait_type":"GOOD"}
+2023-04-09 21:43:00 info: [object Object]
+2023-04-09 21:43:00 info: serverTime : Sun Apr 09 2023 21:43:00 GMT+0530 (India Standard Time)
+2023-04-09 21:43:00 info: Schedule Time : 21:44 America/New_York
+2023-04-09 21:43:00 info: date.toObject() : {"years":2023,"months":3,"date":9,"hours":12,"minutes":13,"seconds":0,"milliseconds":7}
+2023-04-09 21:43:00 info: targetTime.day() : 0
+2023-04-09 21:44:00 info: CronJob Executed.
+2023-04-09 21:44:00 info: Calling postCulturesInSpaces method by cronjob
+2023-04-09 21:44:00 info: Fetching all schedules
+2023-04-09 21:44:00 info: {"id":1,"spaceid":"Y2lzY29zcGFyazovL3VzL1JPT00vNWE2MDE0ZjAtNTFhNi0xMWVjLTkzNzYtZGY5Y2JlOTIxYmNm","trait_type":"all_traits","frequency":"8","time":"21:44","timezone":"America/New_York","last_posted_good_trait_id":1,"last_posted_bad_trait_id":0,"last_posted_trait_type":"GOOD"}
+2023-04-09 21:44:00 info: [object Object]
+2023-04-09 21:44:00 info: serverTime : Sun Apr 09 2023 21:44:00 GMT+0530 (India Standard Time)
+2023-04-09 21:44:00 info: Schedule Time : 21:44 America/New_York
+2023-04-09 21:44:00 info: date.toObject() : {"years":2023,"months":3,"date":9,"hours":12,"minutes":14,"seconds":0,"milliseconds":5}
+2023-04-09 21:44:00 info: targetTime.day() : 0

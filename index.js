@@ -149,6 +149,8 @@ framework.on('attachmentAction', async function (bot, trigger) {
       schedule.spaceId = roomspace.id;
       schedule.frequency = inputs.frequency;
       schedule.trait_type = inputs.trait_type;
+      schedule.time = inputs.time;
+      schedule.timezone = inputs.timezone;
 
       await webexService.webexService.createOrUpdateSchedule(schedule);
       bot.say("Configuration Successful").catch(err => logger.info(err));
@@ -223,7 +225,7 @@ function sendHelpInSpace(bot) {
     'markdown',
     'You can say:',
     '\n' +
-    '**welcomeMembers** to send space members a 1:1 welcome message. \n\n'
+    '**configure** to configure the team traits. \n\n'
   )
 }
 

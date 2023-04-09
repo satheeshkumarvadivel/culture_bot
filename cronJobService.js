@@ -3,7 +3,8 @@ var webexService = require('./WebexHelperService')
 const logger = require('./logging')
 const manager = new CronJobManager()
 
-const timerPattern = "* * * * 1-5";
+// const timerPattern = "* * * * 1-5";
+const timerPattern = "* * * * *";
 const cronJobId = "cronJobId";
 
 const functionToExecute = async function () {

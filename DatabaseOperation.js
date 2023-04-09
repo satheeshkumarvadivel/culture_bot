@@ -6,16 +6,16 @@ const dbService = {
     async create() {
         try {
             let db = await DbConnection.Get();
-            db.exec("DROP TABLE traits");
-            const createSchedulesQuery = "CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[spaceid] NVARCHAR(120),[trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))";
+            const createSchedulesQuery = "CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, [spaceid] NVARCHAR(120), [trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [time] NVARCHAR(10), [timezone] NVARCHAR(50), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))";
             const createTraitsQuery = "CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[trait] NVARCHAR(250),[trait_type] NVARCHAR(20))";
             logger.info("createSchedulesQuery: " + createSchedulesQuery);
             db.exec(createSchedulesQuery);
             logger.info("createTraitsQuery: " + createTraitsQuery);            
             db.exec(createTraitsQuery);
-            logger.info("Tables created successfully.");            
+            logger.info("Tables created successfully.");
         } catch (e) {
-            throw new BotError("error while creating table " + e.stack,"DB");
+            logger.info(e);
+            throw new BotError("Error while creating table " + e.stack,"DB");
         }
     },
 
@@ -23,12 +23,12 @@ const dbService = {
         try {
             logger.info("Creating culture bot configuration schedule.");
             let db = await DbConnection.Get();
-            let insertScheduleQuery = db.prepare("INSERT INTO schedules (spaceid, trait_type, frequency, last_posted_good_trait_id, last_posted_bad_trait_id, last_posted_trait_type) VALUES(?, ?, ?, ?, ?, ?)");
+            let insertScheduleQuery = db.prepare("INSERT INTO schedules (spaceid, trait_type, frequency, time, timezone, last_posted_good_trait_id, last_posted_bad_trait_id, last_posted_trait_type) VALUES(?, ?, ?, ?, ?, ?, ?, ?)");
             let last_posted_trait_type = schedule.trait_type;
             if (schedule.trait_type == 'all_traits') {
                 last_posted_trait_type = 'BAD';
             }
-            insertScheduleQuery.run(schedule.spaceId, schedule.trait_type, schedule.frequency, 0, 0, last_posted_trait_type);
+            insertScheduleQuery.run(schedule.spaceId, schedule.trait_type, schedule.frequency, schedule.time, schedule.timezone, 0, 0, last_posted_trait_type);
             logger.info("Inserted schedule details into the database.");
             let sql = "SELECT * FROM schedules";
             var stmt = db.prepare(sql);
@@ -36,6 +36,7 @@ const dbService = {
                 logger.info(JSON.stringify(row));
             }
         } catch (e) {
+            logger.info(e);
             throw new BotError("Error while inserting schedules " + e.stack,"DB");
         }
     },
@@ -44,8 +45,8 @@ const dbService = {
         try {
             logger.info("Updating culture bot configuration schedule.");
             let db = await DbConnection.Get();
-            let insertScheduleQuery = db.prepare("UPDATE schedules SET trait_type = ?, frequency = ?, last_posted_good_trait_id = ?, last_posted_bad_trait_id = ?, last_posted_trait_type = ? WHERE id = ?");
-            insertScheduleQuery.run(schedule.trait_type, schedule.frequency, schedule.last_posted_good_trait_id, schedule.last_posted_bad_trait_id, schedule.last_posted_trait_type, id);
+            let insertScheduleQuery = db.prepare("UPDATE schedules SET trait_type = ?, frequency = ?, time = ?, timezone = ?, last_posted_good_trait_id = ?, last_posted_bad_trait_id = ?, last_posted_trait_type = ? WHERE id = ?");
+            insertScheduleQuery.run(schedule.trait_type, schedule.frequency, schedule.time, schedule.timezone, schedule.last_posted_good_trait_id, schedule.last_posted_bad_trait_id, schedule.last_posted_trait_type, id);
             logger.info("Updated schedules details into the database.");
             let sql = "SELECT * FROM schedules";
             var stmt = db.prepare(sql);
@@ -85,6 +86,7 @@ const dbService = {
             }
             return schedules;
         } catch (e) {
+            logger.info(e);
             throw new BotError("Error while fetching schedules " + e.stack, "DB");
         }
     },
@@ -105,6 +107,7 @@ const dbService = {
                 logger.info(row.trait_type + ":" + row.trait);
             }
         } catch (e) {
+            logger.info(e);
             throw new BotError("Error while inserting " + e.stack,"DB")
         }
     },
@@ -121,6 +124,7 @@ const dbService = {
                 return row;
             }
         } catch (e) {
+            logger.info(e);
             throw new BotError("Error while fetching schedules " + e.stack, "DB");
         }
     },
@@ -136,6 +140,7 @@ const dbService = {
                 return row;
             }
         } catch (e) {
+            logger.info(e);
             throw new BotError("Error while fetching schedules " + e.stack, "DB");
         }
     }

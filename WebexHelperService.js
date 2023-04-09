@@ -1,4 +1,7 @@
-
+const dayjs = require('dayjs')
+var utc = require('dayjs/plugin/utc')
+var timezone = require('dayjs/plugin/timezone') // dependent on utc plugin
+var toObject = require('dayjs/plugin/toObject')
 var createPTOObject = require('./CreatePTO')
 var configureTemplate = require('./configureTemplate.json')
 var ptomessageToday = require('./PTOMessageToday')
@@ -24,6 +27,8 @@ const webexService = {
       logger.info("Found existing schedule for the spaceId : " + schedule.spaceId);
       existingSchedule.trait_type = schedule.trait_type;
       existingSchedule.frequency = schedule.frequency;
+      existingSchedule.time = schedule.time;
+      existingSchedule.timezone = schedule.timezone;
       await dbService.dbService.updateSchedule(existingSchedule, existingSchedule.id);
     } else {
       await dbService.dbService.createSchedule(schedule);
@@ -31,11 +36,34 @@ const webexService = {
   },
 
   async postCulturesInSpaces() {
+    dayjs.extend(utc);
+    dayjs.extend(timezone);
+    dayjs.extend(toObject);
+
     var traitCard = JSON.parse(JSON.stringify(traitTemplate));
     let schedules = await dbService.dbService.getAllSchedules();
     for (var schedule of schedules) {
       try {
         logger.info(schedule);
+
+        let serverTime = new Date();
+        logger.info("serverTime : " + serverTime);
+        logger.info("Schedule Time : " + schedule.time + " " + schedule.timezone);
+        let targetTime = dayjs(serverTime).tz(schedule.timezone);
+        var date = targetTime.toObject();
+        logger.info("date.toObject() : " + JSON.stringify(date));
+
+        var day = targetTime.day();
+        logger.info("targetTime.day() : " + day);
+
+        if (schedule.frequency != 8 && day != schedule.frequency) {
+          logger.info("Day does not match");
+          return;
+        }
+
+        if (date.hours != schedule.time.split(':')[0] || date.minutes != schedule.time.split(':')[1]) {
+          return;
+        }
         
         var next_trait_id = 0;
         var next_trait_type = schedule.last_posted_trait_type;
@@ -77,15 +105,11 @@ const webexService = {
         schedule.last_posted_trait_type = trait.trait_type;
         dbService.dbService.updateSchedule(schedule, schedule.id);
         logger.info("Updated last_posted_trait details in schedules");
-      } catch (error) {
-        logger.error('Error Occurred while posting cultures into space ' + JSON.stringify(error));
+      } catch (e) {
+        logger.error('Error Occurred while posting cultures into space ' + e);
       }
     }
     logger.info("Completed postCulturesInSpaces() method execution.");
-  },
-
-  getNextTrait(schedule) {
-
   },
 
   async generateBackupList(bot) {
