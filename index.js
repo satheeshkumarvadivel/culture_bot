@@ -47,12 +47,12 @@ framework.on('spawn', (bot, id, actorId) => {
   } else {
     var emailId;
     var msg =
-      '\n_From now onwards I will be taking care of posting PTO message to your favourite spaces.'
+      '\n_From now onwards I will be posting Cisco Team Culture tips to your favourite spaces.'
     bot.webex.people
       .get(actorId)
       .then(user => {
         emailId = user.emails[0]
-        msg = `**PTO Notification Bot here!** 🎉 ${msg}`
+        msg = `**Culture Bot here!** 🎉 ${msg}`
       })
       .catch(e => {
         console.error(

@@ -6,22 +6,22 @@
         {
             "type": "ColumnSet",
             "bleed": true,
-            "style": "good",
             "columns": [
                 {
                     "type": "Column",
                     "items": [
                         {
                             "type": "Image",
-                            "url": "https://developer.webex.com/images/webex-teams-logo.png",
-                            "altText": "Team Member Image",
-                            "size": "Medium",
-                            "style": "Person"
+                            "style": "Default",
+                            "url": "https://proxy-int.broadcloudpbx.net/images/broadsoft/customercare/good_team_work.jpg",
+                            "size": "Large",
+                            "height": "250px",
+                            "isVisible": true
                         },
                         {
                             "type": "TextBlock",
                             "weight": "Bolder",
-                            "text": "TEAM MEMBER TRAIT",
+                            "text": "Team Culture",
                             "wrap": true,
                             "color": "Default",
                             "size": "Large",
@@ -30,19 +30,19 @@
                         }
                     ],
                     "width": "stretch"
-                }
+                }                
             ],
             "spacing": "Large"
-        },
+        },        
         {
             "type": "TextBlock",
-            "text": "Am I a good team member?",
+            "text": "Be a good team member who is responsible of his/her tasks.",
             "spacing": "Medium",
             "weight": "Lighter",
             "color": "Default",
             "wrap": true,
             "horizontalAlignment": "Left",
-            "size": "Large"
+            "size": "medium"
         }
     ]
 }

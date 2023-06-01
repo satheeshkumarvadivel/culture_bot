@@ -41,12 +41,12 @@
             "style": "expanded",
             "choices": [
                 {
-                    "title": "Good Team Member Traits",
+                    "title": "Healthy Traits",
                     "value": "good_traits",
                     "type":"Input.Choice"
                 },
                 {
-                    "title": "Bad Team Member Traits",
+                    "title": "Unhealthy Traits",
                     "value": "bad_traits",
                     "type":"Input.Choice"
                 },
@@ -59,7 +59,7 @@
         },
         {
             "type": "TextBlock",
-            "text": "How frequent do you want me to post?",
+            "text": "How frequently do you want me to post?",
             "spacing": "Medium",
             "weight": "Lighter",
             "color": "Accent"
@@ -94,7 +94,7 @@
                 }
             ],
             "placeholder": "All Weekdays",
-            "value": "weekdays"
+            "value": "8"
         },
         {
             "type": "TextBlock",

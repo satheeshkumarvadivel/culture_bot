@@ -93,3 +93,5 @@ WEBEX_TRACKING_ID: webex-js-sdk_9b039edd-452f-44bf-91ff-f9af75c6b665_10
 2023-04-09 21:05:00 error: Error Occurred while posting cultures into space {}
 2023-04-09 21:14:00 error: Error Occurred while posting cultures into space {}
 2023-04-09 21:15:00 error: Error Occurred while posting cultures into space {}
+2023-05-25 14:21:00 error: Error Occurred while posting cultures into space TypeError: Cannot set properties of undefined (setting 'text')
+2023-05-25 14:27:00 error: Error Occurred while posting cultures into space TypeError: Cannot set properties of undefined (setting 'text')

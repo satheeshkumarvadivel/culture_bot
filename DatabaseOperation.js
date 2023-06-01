@@ -7,7 +7,7 @@ const dbService = {
         try {
             let db = await DbConnection.Get();
             const createSchedulesQuery = "CREATE TABLE IF NOT EXISTS schedules([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, [spaceid] NVARCHAR(120), [trait_type] NVARCHAR(20),[frequency] NVARCHAR(20), [time] NVARCHAR(10), [timezone] NVARCHAR(50), [last_posted_good_trait_id] INTEGER, [last_posted_bad_trait_id] INTEGER, [last_posted_trait_type] NVARCHAR(20))";
-            const createTraitsQuery = "CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[trait] NVARCHAR(250),[trait_type] NVARCHAR(20))";
+            const createTraitsQuery = "CREATE TABLE IF NOT EXISTS traits([id] INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,[title] NVARCHAR(250),[trait] NVARCHAR(500),[trait_type] NVARCHAR(20))";
             logger.info("createSchedulesQuery: " + createSchedulesQuery);
             db.exec(createSchedulesQuery);
             logger.info("createTraitsQuery: " + createTraitsQuery);            
@@ -96,8 +96,8 @@ const dbService = {
             logger.info("Populating traits json into database.");
             let db = await DbConnection.Get();
             traits.forEach(trait => {
-                let insertTraitQuery = db.prepare("INSERT INTO traits (trait, trait_type) VALUES(?,?)");
-                insertTraitQuery.run(trait.trait, trait.trait_type);
+                let insertTraitQuery = db.prepare("INSERT INTO traits (title, trait, trait_type) VALUES(?,?,?)");
+                insertTraitQuery.run(trait.title, trait.trait, trait.trait_type);
             });
             logger.info("Inserted traits into the database.");
 
